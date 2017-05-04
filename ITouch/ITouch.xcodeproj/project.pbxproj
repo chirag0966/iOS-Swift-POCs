@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460414E91BCE72960034D972 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460414E81BCE72960034D972 /* MainViewController.swift */; };
+		4636140C1BCFB6E2005A4A2B /* TextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4636140B1BCFB6E2005A4A2B /* TextBox.swift */; };
+		467B09771BCD010500013486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B09761BCD010500013486 /* AppDelegate.swift */; };
+		467B09791BCD010500013486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B09781BCD010500013486 /* ViewController.swift */; };
+		467B097C1BCD010500013486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467B097A1BCD010500013486 /* Main.storyboard */; };
+		467B097E1BCD010500013486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467B097D1BCD010500013486 /* Assets.xcassets */; };
+		467B09811BCD010500013486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467B097F1BCD010500013486 /* LaunchScreen.storyboard */; };
+		467B09891BCD31CA00013486 /* EHFAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B09881BCD31CA00013486 /* EHFAuthenticator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		460414E81BCE72960034D972 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4636140B1BCFB6E2005A4A2B /* TextBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBox.swift; sourceTree = "<group>"; };
+		467B09731BCD010500013486 /* Touch Secure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touch Secure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		467B09761BCD010500013486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		467B09781BCD010500013486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		467B097B1BCD010500013486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		467B097D1BCD010500013486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		467B09801BCD010500013486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		467B09821BCD010500013486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467B09881BCD31CA00013486 /* EHFAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHFAuthenticator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		467B09701BCD010500013486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		467B096A1BCD010500013486 = {
+			isa = PBXGroup;
+			children = (
+				467B09751BCD010500013486 /* ITouch */,
+				467B09741BCD010500013486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		467B09741BCD010500013486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				467B09731BCD010500013486 /* Touch Secure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		467B09751BCD010500013486 /* ITouch */ = {
+			isa = PBXGroup;
+			children = (
+				467B09881BCD31CA00013486 /* EHFAuthenticator.swift */,
+				467B09761BCD010500013486 /* AppDelegate.swift */,
+				467B09781BCD010500013486 /* ViewController.swift */,
+				460414E81BCE72960034D972 /* MainViewController.swift */,
+				467B097A1BCD010500013486 /* Main.storyboard */,
+				467B097D1BCD010500013486 /* Assets.xcassets */,
+				467B097F1BCD010500013486 /* LaunchScreen.storyboard */,
+				467B09821BCD010500013486 /* Info.plist */,
+				4636140B1BCFB6E2005A4A2B /* TextBox.swift */,
+			);
+			path = ITouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		467B09721BCD010500013486 /* ITouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467B09851BCD010500013486 /* Build configuration list for PBXNativeTarget "ITouch" */;
+			buildPhases = (
+				467B096F1BCD010500013486 /* Sources */,
+				467B09701BCD010500013486 /* Frameworks */,
+				467B09711BCD010500013486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITouch;
+			productName = ITouch;
+			productReference = 467B09731BCD010500013486 /* Touch Secure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		467B096B1BCD010500013486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = WeboniseLab;
+				TargetAttributes = {
+					467B09721BCD010500013486 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = HYSCB8KRL2;
+					};
+				};
+			};
+			buildConfigurationList = 467B096E1BCD010500013486 /* Build configuration list for PBXProject "ITouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 467B096A1BCD010500013486;
+			productRefGroup = 467B09741BCD010500013486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				467B09721BCD010500013486 /* ITouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		467B09711BCD010500013486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467B09811BCD010500013486 /* LaunchScreen.storyboard in Resources */,
+				467B097E1BCD010500013486 /* Assets.xcassets in Resources */,
+				467B097C1BCD010500013486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		467B096F1BCD010500013486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467B09891BCD31CA00013486 /* EHFAuthenticator.swift in Sources */,
+				467B09791BCD010500013486 /* ViewController.swift in Sources */,
+				467B09771BCD010500013486 /* AppDelegate.swift in Sources */,
+				4636140C1BCFB6E2005A4A2B /* TextBox.swift in Sources */,
+				460414E91BCE72960034D972 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		467B097A1BCD010500013486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				467B097B1BCD010500013486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		467B097F1BCD010500013486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				467B09801BCD010500013486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		467B09831BCD010500013486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Red Hat, Inc. (HYSCB8KRL2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Red Hat, Inc. (HYSCB8KRL2)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Touch Secure";
+				PROVISIONING_PROFILE = "68514290-b36e-4d8f-b8b8-c096f6a86458";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		467B09841BCD010500013486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Red Hat, Inc. (HYSCB8KRL2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Red Hat, Inc. (HYSCB8KRL2)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Touch Secure";
+				PROVISIONING_PROFILE = "68514290-b36e-4d8f-b8b8-c096f6a86458";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		467B09861BCD010500013486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Red Hat, Inc. (HYSCB8KRL2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Red Hat, Inc. (HYSCB8KRL2)";
+				INFOPLIST_FILE = ITouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redhat.partnerlink;
+				PRODUCT_NAME = "Touch Secure";
+				PROVISIONING_PROFILE = "68514290-b36e-4d8f-b8b8-c096f6a86458";
+			};
+			name = Debug;
+		};
+		467B09871BCD010500013486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Red Hat, Inc. (HYSCB8KRL2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Red Hat, Inc. (HYSCB8KRL2)";
+				INFOPLIST_FILE = ITouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redhat.partnerlink;
+				PRODUCT_NAME = "Touch Secure";
+				PROVISIONING_PROFILE = "68514290-b36e-4d8f-b8b8-c096f6a86458";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		467B096E1BCD010500013486 /* Build configuration list for PBXProject "ITouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467B09831BCD010500013486 /* Debug */,
+				467B09841BCD010500013486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467B09851BCD010500013486 /* Build configuration list for PBXNativeTarget "ITouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467B09861BCD010500013486 /* Debug */,
+				467B09871BCD010500013486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 467B096B1BCD010500013486 /* Project object */;
+}
